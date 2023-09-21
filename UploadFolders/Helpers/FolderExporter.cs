@@ -11,10 +11,10 @@ public class FolderExporter
         {
             var workbook = package.Workbook;
             var worksheet = workbook.Worksheets.Add("Folders");
-                
+
             worksheet.Cells[1, 1].Value = "Name";
             worksheet.Cells[1, 2].Value = "Parent";
-                
+
             int currentRow = 2;
 
             foreach (var folder in folders)

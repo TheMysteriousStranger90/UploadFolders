@@ -11,3 +11,16 @@
     }
 </ul>
 
+<div class="row">
+    <div class="col-md-2 offset-md-4 m-3">
+        <div class="text-center">
+            <a asp-controller="Upload" asp-action="UploadFolderFromSystemDir">Upload folder from OS</a>
+            <div class="m-3"></div>
+            <a asp-controller="Upload" asp-action="UploadFolderFromExcelFile">Upload folder from Excel file</a>
+            <div class="m-3"></div>
+            <form method="post" asp-controller="Upload" asp-action="ExportFolderStructureToExcel">
+                <button type="submit" class="btn btn-primary">Export Folders to Excel</button>
+            </form>
+        </div>
+    </div>
+</div>
