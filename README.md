@@ -1,5 +1,5 @@
 # UploadFolders
-My test WebApp MVC for GeeksForLess
+My test WebApp MVC for degenerates of GeeksForLess, which don't respect other people's time and other people's work.
 
 
 •	Create a web site that will allow you to display a hierarchical directory structure.
